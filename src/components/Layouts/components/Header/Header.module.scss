@@ -10,15 +10,18 @@
   width: var(--default-layout-width);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
 }
 
+
+
 .search {
   position: relative;
-  display: flex;
   width: 360px;
+  display: flex;
   height: 46px;
   background: rgba(22, 24, 35, 0.06);
   border-radius: 20px;
@@ -77,4 +80,11 @@
   font-size: 1.8rem;
   top: 14px;
   right: 65px;
+}
+
+.search_title {
+  padding-left: 10px;
+  font-weight: 800;
+    font-size: 18px;
+    font-style: italic;
 }
